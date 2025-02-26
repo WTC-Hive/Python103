@@ -30,17 +30,6 @@ class Dog(Animal):
     """
     pass
 
-# Task 4: Class Methods
-class Student:
-    """
-    Create a Student class with:
-    - name (string)
-    - grades (list of integers)
-    - A class method `from_string(cls, string)` that creates a Student instance 
-      from a string like "John Doe,85,90,78".
-    """
-    pass
-
 # Task 5: Static Methods
 class MathOperations:
     """
@@ -74,24 +63,5 @@ class Book:
     - title (string)
     - author (string)
     The constructor should raise a ValueError if title or author is empty.
-    """
-    pass
-
-# Task 9: Mixin Class
-class JsonMixin:
-    """
-    Create a JsonMixin class with a method to_json() that returns a JSON string 
-    of the object's __dict__.
-    """
-    pass
-
-# Task 10: Abstract Base Class
-from abc import ABC, abstractmethod
-class Shape(ABC):
-    """
-    Create an abstract Shape class with:
-    - An abstract method area()
-    - An abstract method perimeter()
-    Create a subclass Circle that implements these methods.
     """
     pass
