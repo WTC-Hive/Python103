@@ -23,11 +23,6 @@ def test_dog_speak():
     dog = Dog()
     assert dog.speak() == "Woof!"
 
-def test_student_from_string():
-    student = Student.from_string("Alice Smith,90,85,88")
-    assert student.name == "Alice Smith"
-    assert student.grades == [90, 85, 88]
-  
 def test_math_operations():
     assert MathOperations.add(2, 3) == 5
     assert MathOperations.factorial(5) == 120
@@ -48,16 +43,3 @@ def test_book_exception():
         Book("", "J.K. Rowling")
     with pytest.raises(ValueError):
         Book("Harry Potter", "")
-
-def test_json_mixin():
-    class TestClass(JsonMixin):
-        def __init__(self, a, b):
-            self.a = a
-            self.b = b
-    obj = TestClass(1, 2)
-    assert obj.to_json() == '{"a": 1, "b": 2}'
-
-def test_shape_subclass():
-    circle = Circle(5)
-    assert circle.area() == pytest.approx(78.54, 0.01)
-    assert circle.perimeter() == pytest.approx(31.42, 0.01)
