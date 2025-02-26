@@ -1,7 +1,7 @@
 import pytest
 from tasks import (
-    Vehicle, BankAccount, Dog, Student, MathOperations,
-    Temperature, Vector, Book, JsonMixin, Shape, Circle
+    Vehicle, BankAccount, Dog, MathOperations,
+    Temperature, Vector, Book
 )
 
 def test_vehicle_initialization():
