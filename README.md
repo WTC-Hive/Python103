@@ -48,7 +48,7 @@ pytest test_tasks.py
 ```
 
 **If all your tests pass, you should see this on the terminal:**
-![Test cases](testcase.png)
+![Test cases](testcases.png)
 
 ### Step 4: Submit Your Work
 
