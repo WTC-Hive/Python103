@@ -47,6 +47,11 @@ pip install -r requirements.txt
 pytest test_tasks.py
 ```
 
+**If all your tests pass, you should see this on the terminal:**
+```bash
+![Test cases](testcase.png)
+```
+
 ### Step 4: Submit Your Work
 
 **Commit and Push:**
